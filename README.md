@@ -68,6 +68,7 @@ Firstly, you need setup your local git repository:
 
 ### Docker
 * [MariaDB](https://hub.docker.com/_/mariadb/)
+* [letsencrypt-nginx-proxy-companion](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/)
 
 ### Others
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
