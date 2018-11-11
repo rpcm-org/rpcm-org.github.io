@@ -16,3 +16,7 @@ Firstly, you need setup your local git repository:
 
     # setup commit template
     git config commit.template .git-commit-template
+
+## Useful links
+* [FiveM Natives](https://runtime.fivem.net/doc/natives/)
+* [Markdown](https://guides.github.com/features/mastering-markdown/)
