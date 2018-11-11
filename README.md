@@ -1,4 +1,4 @@
-# RP Crucial Mode ORG
+# RP Crucial Mode
 
 [RPCM](https://github.com/rpcm-org) is a mode for [FiveM](https://github.com/kanersps/essentialmode) with emphasis for role play.
 
@@ -64,6 +64,10 @@ Firstly, you need setup your local git repository:
 * [Builds](http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 * [Key Registration](https://keymaster.fivem.net/)
 * [Natives](https://runtime.fivem.net/doc/natives/)
+* [fivem-mysql-async](https://github.com/brouznouf/fivem-mysql-async/)
+
+### Docker
+* [MariaDB](https://hub.docker.com/_/mariadb/)
 
 ### Others
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
