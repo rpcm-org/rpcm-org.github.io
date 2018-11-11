@@ -43,8 +43,6 @@ To deploy RP Crucial Mode with whole ecosystem, please follow those steps.
 RP Crucial Mode project provides this docker container:
 * [rpcmorg/fivem](https://hub.docker.com/r/rpcmorg/fivem/)
 
-For more documentation please visit [rpcm-org.github.io](https://rpcm-org.github.io/).
-
 ## How To Contribute
 
 Firstly, you need setup your local git repository:
