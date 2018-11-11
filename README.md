@@ -19,13 +19,27 @@ To deploy RP Crucial Mode with whole ecosystem, please follow those steps.
     vim .rpcm.env
 
     # Create directory database files
-    mkdir -p /srv/fivem/db
+    sudo mkdir -p /srv/rpcm/db
+
+    # Create directories for nginx proxy
+    # and let's encrypt companion
+    sudo mkdir -p /srv/rpcm/nginx/conf.d/
+    sudo mkdir -p /srv/rpcm/nginx/html
+    sudo mkdir -p /srv/rpcm/nginx/certs
 
 ### First Deploy
 
     source .rpcm.env
     sudo docker-compose pull
     sudo -E docker-compose up -d --build
+
+### Adminer Interface for MariaDB
+
+    system: MySQL
+    server: rpcm_db
+    username: root
+    password: <${RPCM_DB_ROOT_PASSWORD} from your .rpcm.env file>
+    database: <empty, because DB is not created yet>
 
 ### Hints
 
@@ -36,7 +50,11 @@ To deploy RP Crucial Mode with whole ecosystem, please follow those steps.
     sudo docker exec -ti <container> /usr/bin/bash
 
     # To remove database data
-    sudo rm -fR /srv/fivem/db/*
+    sudo rm -fR /srv/rpcm/db/*
+
+    # Locally on server if you need work with le-companion:
+    sudo docker exec dockerrpcm_le-companion_1 /app/cert_status
+    sudo docker exec dockerrpcm_le-companion_1 /app/force_renew
 
 ## Docker containers
 
