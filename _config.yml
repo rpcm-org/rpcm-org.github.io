@@ -1,3 +1,4 @@
 theme: jekyll-theme-leap-day
+url: "https://rpcm-org.github.io/"
 plugins:
    - jekyll-sitemap
