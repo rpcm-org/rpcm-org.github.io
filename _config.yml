@@ -1,5 +1,5 @@
 theme: jekyll-theme-leap-day
-url: "https://rpcm-org.github.io/"
+url: "https://rpcm-org.github.io"
 plugins:
    - jekyll-sitemap
 show_downloads: false

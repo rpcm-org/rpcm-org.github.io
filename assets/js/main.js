@@ -24,13 +24,13 @@ var sectionHeight = function() {
         $.each(url, (k, v) => {
           var page = $(v)[0].innerHTML;
           var pageName;
-          if (page === 'http://' + window.location.host + '/' || page === 'https://' + window.location.host + '/') {
+          if (page === 'http://' + window.location.host + '/' || page === 'https://' + window.location.host + '/' || page === 'http://' + window.location.host + '//' || page === 'https://' + window.location.host + '//') {
             pageName = 'docs home';
           } else {
             pageName = page.replace(/(.*:\/\/.*\/)/g, '');
             pageName = pageName.replace('.html', '');
           }
-          if (pageName) pageName = pageName[0].toUpperCase() + pageName.slice(1);
+          pageName = pageName[0].toUpperCase() + pageName.slice(1);
           $("nav ul.pages").append("<li><a href='" + page + "'>" + pageName + "</a></li>");
         });
       },
