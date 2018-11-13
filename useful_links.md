@@ -1,6 +1,7 @@
 # Useful Links
 
 ## FiveM
+* [Docs](https://docs.fivem.net/)
 * [Builds](http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 * [Key Registration](https://keymaster.fivem.net/)
 * [Natives](https://runtime.fivem.net/doc/natives/)

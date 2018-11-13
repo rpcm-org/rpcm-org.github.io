@@ -70,7 +70,7 @@ Firstly, you need setup your local git repository:
     # optionally
     git config user.name "<author name>"
     git config user.email "<author e-mail>"
-    
+
     git config user.signingkey <public GPG key>
 
     # setup commit template
@@ -79,6 +79,7 @@ Firstly, you need setup your local git repository:
 ## Useful Links
 
 ### FiveM
+* [Docs](https://docs.fivem.net/)
 * [Builds](http://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 * [Key Registration](https://keymaster.fivem.net/)
 * [Natives](https://runtime.fivem.net/doc/natives/)
