@@ -30,7 +30,7 @@ To deploy RP Crucial Mode with whole ecosystem, please follow those steps.
 ### First Deploy
 
     source .rpcm.env
-    sudo docker-compose pull
+    sudo -E docker-compose pull
     sudo -E docker-compose up -d --build
 
 ### Adminer Interface for MariaDB
@@ -44,7 +44,7 @@ To deploy RP Crucial Mode with whole ecosystem, please follow those steps.
 ### Hints
 
     # To stop docker-compose ecosystem
-    docker-compose down
+    sudo docker-compose down
 
     # Interactive bash in container
     sudo docker exec -ti <container> /usr/bin/bash
