@@ -21,6 +21,7 @@ var sectionHeight = function() {
         $("nav").prepend("<ul class='pages'></ul>");
         var url = $(xml).find('loc');
         $("nav ul.pages").append("<li class='bold-text'>Pages</li>");
+        console.log(url);
         $.each(url, (k, v) => {
           var page = $(v)[0].innerHTML;
           var pageName;
@@ -30,7 +31,7 @@ var sectionHeight = function() {
             pageName = page.replace(/(.*:\/\/.*\/)/g, '');
             pageName = pageName.replace('.html', '');
           }
-          if (pageName) pageName = pageName[0].toUpperCase() + pageName.slice(1);
+          if (pageName) { pageName = pageName[0].toUpperCase() + pageName.slice(1); }
           $("nav ul.pages").append("<li><a href='" + page + "'>" + pageName + "</a></li>");
         });
       },
