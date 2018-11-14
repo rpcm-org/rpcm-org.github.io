@@ -1,11 +1,12 @@
 # RP Crucial Mode
 
-[RPCM](https://github.com/rpcm-org) is a mode for [FiveM](https://github.com/kanersps/essentialmode) with emphasis for role play.
+[RPCM](https://github.com/rpcm-org) is a mode for [FiveM](https://fivem.net/) with emphasis for role play.
 
 ## Docker containers
 
-RP Crucial Mode project provides this docker container:
+RP Crucial Mode project provides following docker containers:
 * [rpcmorg/fivem](https://hub.docker.com/r/rpcmorg/fivem/)
+* [rpcmorg/rpcm](https://hub.docker.com/r/rpcmorg/rpcm/)
 
 ## How To Contribute
 
