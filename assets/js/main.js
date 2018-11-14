@@ -20,6 +20,11 @@ var sectionHeight = function() {
       success: function(xml) {
         $("nav").prepend("<ul class='pages'></ul>");
         var url = $(xml).find('loc');
+        url.sort(function (uo1, uo2) {
+          var o1 = uo1.innerHTML,
+              o2 = uo2.innerHTML;
+          return o1.localeCompare(o2)
+        });
         $("nav ul.pages").append("<li class='bold-text'>Pages</li>");
         $.each(url, (k, v) => {
           var page = $(v)[0].innerHTML;
