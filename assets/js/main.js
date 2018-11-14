@@ -33,7 +33,7 @@ var sectionHeight = function() {
             pageName = 'docs home';
           } else {
             pageName = page.replace(/(.*:\/\/.*\/)/g, '');
-            pageName = pageName.replace('/_/g', ' ');
+            pageName = pageName.replace(/([a-zA-Z])\_([a-zA-Z])/g, '$1 $2');
             pageName = pageName.replace('.html', '');
           }
           pageName = pageName[0].toUpperCase() + pageName.slice(1);
