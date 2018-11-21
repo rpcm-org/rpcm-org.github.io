@@ -52,6 +52,6 @@ To deploy RP Crucial Mode with whole Docker ecosystem, please follow those steps
     sudo docker exec dockerrpcm_le-companion_1 /app/cert_status
     sudo docker exec dockerrpcm_le-companion_1 /app/force_renew
 
-## Alternative deploy
+## Alternative deploy without Docker
 
-RP Crucial Mode can be alternatively deployed as any other FiveM resource by uploading it into your server `resources` folder and enabling it by adding `start NAME_OF_RESOURCE_FOLDER` into your `server.cfg` file.
+RP Crucial Mode can be alternatively deployed as any other FiveM resource, but it is not fully supported by us for now.
