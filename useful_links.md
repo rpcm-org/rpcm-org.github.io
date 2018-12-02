@@ -15,5 +15,11 @@
 * [MariaDB](https://hub.docker.com/_/mariadb/)
 * [letsencrypt-nginx-proxy-companion](https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/)
 
+## Flask
+* [flask](http://flask.pocoo.org/)
+* [flask-sqlalchemy](http://flask-sqlalchemy.pocoo.org)
+* [flask-rest-jsonapi](https://flask-rest-jsonapi.readthedocs.io)
+
 ## Others
+* [docopt](http://docopt.org/)
 * [Markdown](https://guides.github.com/features/mastering-markdown/)
